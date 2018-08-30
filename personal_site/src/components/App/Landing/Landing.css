@@ -1,0 +1,7 @@
+.landing-wrapper{
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}

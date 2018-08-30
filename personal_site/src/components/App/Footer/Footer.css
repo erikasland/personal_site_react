@@ -1,0 +1,16 @@
+footer{
+	background-color: #354346;
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+	height: 5em;
+	width: 100%;
+}
+
+footer h6{
+	font-family: 'Work Sans';
+	text-align: center;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: white;
+}
