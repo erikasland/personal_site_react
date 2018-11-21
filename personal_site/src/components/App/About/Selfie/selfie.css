@@ -1,0 +1,11 @@
+.selfie-wrapper{
+	justify-content: center;
+	padding-top: 5em;
+	display: flex;
+}
+
+.selfie{
+	border-radius: 50%;
+	height: 20em;
+	width: 20em;
+}

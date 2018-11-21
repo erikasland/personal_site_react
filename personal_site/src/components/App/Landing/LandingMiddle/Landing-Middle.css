@@ -43,3 +43,11 @@
 	background-color: white;
     color: black;
 }
+
+@keyframes blink{
+    40% {border-right: 1px lightgrey solid;}
+}
+
+.blinking-title{
+    animation: blink 1s ease 0s infinite normal none running;
+}
