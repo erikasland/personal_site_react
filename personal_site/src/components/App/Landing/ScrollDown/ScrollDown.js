@@ -7,7 +7,7 @@ class ScrollDown extends Component {
     return (
       <Fragment>
       	<div className="down-arrow-wrapper">
-      		<img className="down-arrow" src={arrow} />
+      		<img className="down-arrow" alt="An arrow pointing down that scrolls to the next page." src={arrow} />
       	</div>
       </Fragment>
     );

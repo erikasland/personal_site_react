@@ -14,17 +14,17 @@ class Contact extends Component {
 			            <h2 className="contact-title">Want to work together?</h2>
 						<h3 className="contact-sub-title">Im currently seeking new opportunities.</h3>
 						<div className="contact-icon-wrapper">
-						<a href="https://www.linkedin.com/in/erikasland/" target="_blank">
-							<img src={linkedin}/>
+						<a href="https://www.linkedin.com/in/erikasland/" target="_blank" rel="noopener noreferrer">
+							<img alt="Linkedin Icon." src={linkedin}/>
 						</a>
-						<a href="https://stackoverflow.com/users/5182047/erik-%C3%85sland" target="_blank">
-							<img src={so}/>
+						<a href="https://stackoverflow.com/users/5182047/erik-%C3%85sland" target="_blank" rel="noopener noreferrer">
+							<img alt="Stack Overflow Icon." src={so}/>
 						</a>
-						<a href="https://github.com/erikasland" target="_blank">
-							<img src={github}/>
+						<a href="https://github.com/erikasland" target="_blank" rel="noopener noreferrer">
+							<img alt="Github Icon." src={github}/>
 						</a>
-						<a href="mailto:erikasland87@gmail.com" target="_blank">
-							<img src={email}/>
+						<a href="mailto:erikasland87@gmail.com" target="_blank" rel="noopener noreferrer">
+							<img alt="Email Icon." src={email}/>
 						</a>
 						</div>
 					</div>

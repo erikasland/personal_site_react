@@ -7,7 +7,7 @@ class Selfie extends Component {
 		return (
 			<Fragment>
 				<div className="selfie-wrapper">
-					<img className="selfie" src={selfie}/>
+					<img className="selfie" alt="Erik Åsland looking cool." src={selfie}/>
 				</div>
 			</Fragment>
 		);

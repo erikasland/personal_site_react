@@ -1,0 +1,60 @@
+.nav-wrapper{
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    justify-content: space-between;
+    flex-flow: wrap column-reverse;
+    transform: translateY(-50%);
+    padding-right: 2em;
+    position: fixed;
+    height: 150px;
+    display: flex;
+    width: 200px;
+    right: 0px;
+    top: 50%;
+}
+
+.nav-wrapper ol{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+
+.nav-wrapper ol:hover{
+    cursor: pointer;
+}
+
+.navTitle{
+    font-family: 'Work Sans';
+    font-size: 1.2em;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-dot{
+    margin-left: .5em;
+	background-color: white;
+	border-radius: 10px; 
+    height: 12px;
+    width: 12px;
+}
+
+.nav-dot-hover{
+	background-color: black;
+	border: 1.5px solid white;
+	height: 9px;
+	width: 9px;
+	cursor: pointer;
+	transition: background 0.215s ease-in-out 0s, transform 0.215s ease-in-out 0s;
+}
+
+.visible{
+    opacity: 1;
+    transition: opacity 0.215s ease-in 0s, transform 0.215s ease-in-out 0s;
+}
+
+.hidden{
+    opacity: 0;
+    transition: opacity 0.215s ease-out 0s, transform 0.215s ease-in-out 0s;
+}

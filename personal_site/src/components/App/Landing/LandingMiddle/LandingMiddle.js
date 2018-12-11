@@ -4,7 +4,7 @@ import './Landing-Middle.css';
 
 class LandingMiddle extends Component {
     state = {
-        titles: ["Web Applications", "Pipelines", "with Python", "with Django", "with Javascript"],
+        titles: ["Web Applications", "Pipelines", "with Python", "with Django", "with Javascript", "with React", "with AngularJS", "with jQuery", "with Google Cloud Platform"],
         titleCount: 0,
         letterCount: 0,
         sentence: "",
@@ -49,7 +49,7 @@ class LandingMiddle extends Component {
 						<span className="blinking-title">{this.state.sentence}</span>
 					</h1>
 					<div className="hire-me-btn-container">
-						<button className="hire-me-btn">LET'S CONNECT</button>
+						<button className="hire-me-btn" >LET'S CONNECT</button>
 					</div>
 				</div>
 			</div>
