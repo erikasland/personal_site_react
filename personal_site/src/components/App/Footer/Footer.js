@@ -6,7 +6,7 @@ class Footer extends Component {
 		return (
 			<Fragment>
 				<footer>
-					<h6 class="copyright-info">Erik Åsland © 2018</h6>
+					<h6 className="copyright-info">Erik Åsland © 2018</h6>
 				</footer>
 			</Fragment>
 		);

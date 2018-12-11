@@ -1,0 +1,23 @@
+.description-wrapper{
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+}
+
+.description-container{
+	width: 38em;
+}
+
+.description-container p{
+	font-family: 'Work Sans';
+	text-align: center;
+	font-size: 2em;
+	color: white;
+}
+
+.upper-line, .lower-line{
+	background-color: #87989E;
+	height: .25em;
+	margin: 3em 0;
+	width: 39em;
+}

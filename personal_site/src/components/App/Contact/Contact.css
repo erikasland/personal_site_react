@@ -1,4 +1,54 @@
+h2, h3{
+	color: white;
+}
+
+.contact-title, .contact-sub-title{
+	font-family: 'Work Sans';
+	font-size: 3em;
+}
+
 .contact-wrapper{
-	background-color: #a6bac1;
+	background-color: #5e696c;
+	justify-content: center;
+	display: flex;
 	height: 64em;
 }
+
+.contact-container{
+	justify-content: center;
+	flex-direction: column;
+	display: flex;
+    width: 39em;
+}
+
+.contact-container a:hover{
+	opacity: .3;
+}
+
+.contact-container h2{
+    margin-bottom: .5em;
+}
+
+.contact-container h3{
+    text-align: center;
+}
+
+.contact-title{
+	text-align: center;
+	font-weight: 700;
+}
+
+.contact-sub-title{
+	margin: 0 0 1.5em 0;
+}
+
+.contact-icon-wrapper{
+    justify-content: space-between;
+	display: flex;
+}
+
+.contact-icon-wrapper img{
+	border-radius: 50%;
+	width: 145px;
+}
+
